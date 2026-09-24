@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -e
 
 if [ ! -d "/var/lib/mysql/mysql" ]; then

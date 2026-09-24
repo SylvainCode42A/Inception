@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -e
 
 until mysqladmin ping -h"${WORDPRESS_DB_HOST}" \
